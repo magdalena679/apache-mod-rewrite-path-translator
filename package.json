@@ -1,0 +1,17 @@
+{
+  "name": "apache-mod-rewrite-path-translator",
+  "version": "0.1.0",
+  "description": "Parses Apache mod_rewrite rules into structured objects with pattern, substitution, and flags.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {}
+}
